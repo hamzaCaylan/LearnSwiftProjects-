@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4096049D2A23857C0074E953 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4096049C2A23857C0074E953 /* DetailsViewController.swift */; };
 		40E7429C2A237E6B0014445B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E7429B2A237E6B0014445B /* AppDelegate.swift */; };
 		40E7429E2A237E6B0014445B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E7429D2A237E6B0014445B /* SceneDelegate.swift */; };
 		40E742A02A237E6B0014445B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E7429F2A237E6B0014445B /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4096049C2A23857C0074E953 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		40E742982A237E6B0014445B /* LearnCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E7429B2A237E6B0014445B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40E7429D2A237E6B0014445B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				40E7429B2A237E6B0014445B /* AppDelegate.swift */,
 				40E7429D2A237E6B0014445B /* SceneDelegate.swift */,
 				40E7429F2A237E6B0014445B /* ViewController.swift */,
+				4096049C2A23857C0074E953 /* DetailsViewController.swift */,
 				40E742A12A237E6B0014445B /* Main.storyboard */,
 				40E742A72A237E6B0014445B /* Assets.xcassets */,
 				40E742A92A237E6B0014445B /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				40E7429C2A237E6B0014445B /* AppDelegate.swift in Sources */,
 				40E7429E2A237E6B0014445B /* SceneDelegate.swift in Sources */,
 				40E742A62A237E6B0014445B /* LearnCoreData.xcdatamodeld in Sources */,
+				4096049D2A23857C0074E953 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
