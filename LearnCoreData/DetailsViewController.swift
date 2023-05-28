@@ -12,12 +12,17 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var isimTextfielt: UITextField!
     @IBOutlet weak var yazarTextField: UITextField!
     @IBOutlet weak var fiyatTextField: UITextField!
-    
     @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let gestureRecognaizer = UITapGestureRecognizer(target: self, action: #selector(klavyiKapat))
+        view.addGestureRecognizer(gestureRecognaizer)
+        
+    }
+     
+    @objc func klavyiKapat() {
+        view.endEditing(true)
     }
     
 
