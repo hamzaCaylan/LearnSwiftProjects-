@@ -68,6 +68,9 @@ class DetailsViewController: UIViewController,UIPickerViewDelegate,UINavigationC
         catch{
             print("sdadas")
         }
+        
+        NotificationCenter.default.post(name: NSNotification.Name("kayıt alındı"), object: nil)
+        self.navigationController?.popViewController(animated: true)
 
     }
     
